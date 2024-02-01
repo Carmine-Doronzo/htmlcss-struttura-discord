@@ -20,6 +20,15 @@
 }
 
 
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+
 
 .column-nav{
     
@@ -31,9 +40,12 @@
     width: 200px;
 }
 
-.grow{
-    flex-grow: 1;
+.height{
+    height: 400px;
+    width: 400px;
 }
+
+
 
 
 /*debug*/
@@ -75,3 +87,24 @@
 .debug .bg-magenta{
     background-color: magenta;
 }
+
+.debug .bg-white{
+    background-color: white;
+}
+
+.debug .bg-azure{
+    background-color: rgb(105, 229, 229);
+}
+
+.debug .bg-pink{
+    background-color: pink;
+}
+
+.debug .bg-grey{
+    background-color: gray;
+}
+
+.debug .bg-green{
+    background-color: green;
+}
+
