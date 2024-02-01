@@ -10,23 +10,31 @@
     width: 1000px;
 }
 
-.row{
+.row-nav{
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    min-width: 30%;
+    flex-direction:row;
+    width: 60%;
+    justify-content: center;
+        
+    
 }
 
 .column{
     
-    min-width: 30%;
+    min-width: 10%;
 }
+
+.grow{
+    flex-grow: 1;
+}
+
 
 /*debug*/
 .debug .container{
-    border: 2px solid red;
-    margin: auto;
     background-color: blue;
-    padding: 10px;
+    padding: 5px;
+    margin: auto;
 }
 
 .debug .row{
@@ -38,4 +46,6 @@
 .debug .column{
     padding: 10px;
     border: 2px solid yellow;
+    text-align: center;
+    color: white;
 }
