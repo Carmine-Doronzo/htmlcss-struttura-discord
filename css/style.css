@@ -7,7 +7,7 @@
 
 /*layot*/
 .container{
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .row{
@@ -74,7 +74,7 @@
 /*debug*/
 .debug .container{
     padding: 5px;
-    margin: auto;
+    margin:0 auto;
 }
 
 
