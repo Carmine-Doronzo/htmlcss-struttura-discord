@@ -5,18 +5,37 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
-
-
 /*layot*/
+.container{
+    width: 1000px;
+}
 
+.row{
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+}
 
-
-
-
+.column{
+    
+    min-width: 30%;
+}
 
 /*debug*/
+.debug .container{
+    border: 2px solid red;
+    margin: auto;
+    background-color: blue;
+    padding: 10px;
+}
+
+.debug .row{
+    padding: 10px;
+    border: 2px solid green ;
+
+}
+
+.debug .column{
+    padding: 10px;
+    border: 2px solid yellow;
+}
